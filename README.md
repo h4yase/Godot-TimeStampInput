@@ -1,5 +1,10 @@
 # TimeStamp Input
 
+## Overview
+
+TimeStampInput is a Godot GDExtension that captures input events with the earliest timestamp the operating system makes available to games.  
+This lets you determine when an input occurred more precisely than timestamping it when Godot processes the event.
+
 ## Requirement
 
 - Supports Godot version 4.7.2 or higher.  
